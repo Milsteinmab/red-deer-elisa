@@ -1,0 +1,17 @@
+sample_id,fecal_culture,od_inhouse_elisa,od_elisac
+S01,negative,0.26,0.17
+S02,negative,0.363,0.3
+S03,negative,0.233,0.22
+S04,negative,0.136,0.15
+S05,negative,0.0665,0.14
+S06,negative,0.117,0.14
+S07,negative,0.1415,0.14
+S08,negative,0.112,0.16
+S09,negative,0.1765,0.16
+S10,positive,0.4645,0.15
+S11,positive,0.467,0.76
+S12,positive,0.681,0.12
+S13,positive,0.433,0.14
+S14,positive,0.1655,0.21
+S15,positive,0.335,0.35
+S16,positive,0.406,0.24

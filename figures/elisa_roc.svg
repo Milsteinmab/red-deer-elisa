@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="610" viewBox="0 0 800 610" role="img" aria-labelledby="title desc">
+  <title id="title">ELISA performance in red deer</title>
+  <desc id="desc">Empirical ROC curves against fecal culture. In-house ELISA AUC 0.921, bovine ELISA AUC 0.603. An open circle marks the in-house threshold OD greater than 0.26, with sensitivity 85.7% and specificity 88.9%.</desc>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #172c38; font-size: 15px }
+    .heading { font-size: 28px; font-weight: bold }
+    .label { font-weight: bold }
+    .grid { fill: none; stroke: #dae1e5; stroke-width: 1 }
+    .inhouse { stroke: #005c83; stroke-width: 3.5 }
+    .bovine { stroke: #a04417; stroke-width: 3; stroke-dasharray: 9 5 }
+    .cutoff { fill: white; stroke: #005c83; stroke-width: 3 }
+  </style>
+  <rect width="800" height="610" fill="white"/>
+  <text class="heading" x="32" y="42">ELISA performance in red deer</text>
+  <text x="32" y="70">Fecal culture reference · 7 positive and 9 negative sera</text>
+  <path class="grid" d="M84 100 V500 M84 500 H484"/><text x="84" y="523" text-anchor="middle">0</text><text x="71" y="505" text-anchor="end">0</text><path class="grid" d="M184.0 100 V500 M84 400.0 H484"/><text x="184.0" y="523" text-anchor="middle">0.25</text><text x="71" y="405.0" text-anchor="end">0.25</text><path class="grid" d="M284.0 100 V500 M84 300.0 H484"/><text x="284.0" y="523" text-anchor="middle">0.5</text><text x="71" y="305.0" text-anchor="end">0.5</text><path class="grid" d="M384.0 100 V500 M84 200.0 H484"/><text x="384.0" y="523" text-anchor="middle">0.75</text><text x="71" y="205.0" text-anchor="end">0.75</text><path class="grid" d="M484 100 V500 M84 100 H484"/><text x="484" y="523" text-anchor="middle">1</text><text x="71" y="105" text-anchor="end">1</text>
+  <path d="M84 100 V500 H484" fill="none" stroke="#516572"/>
+  <path d="M84 500 L484 100" stroke="#85929b" stroke-dasharray="3 5"/>
+  <polyline class="inhouse" fill="none" points="84.000,500.000 84.000,442.857 84.000,385.714 84.000,328.571 84.000,271.429 84.000,214.286 128.444,214.286 128.444,157.143 172.889,157.143 217.333,157.143 261.778,157.143 261.778,100.000 306.222,100.000 350.667,100.000 395.111,100.000 439.556,100.000 484.000,100.000"/>
+  <polyline class="bovine" fill="none" points="84.000,500.000 84.000,442.857 84.000,385.714 128.444,385.714 128.444,328.571 172.889,328.571 172.889,271.429 217.333,271.429 306.222,271.429 350.667,214.286 484.000,157.143 484.000,100.000"/>
+  <circle class="cutoff" cx="128.444" cy="157.143" r="6.5"/>
+  <text x="284" y="553" text-anchor="middle">False-positive rate (1 − specificity)</text>
+  <text transform="translate(26 300) rotate(-90)" text-anchor="middle">Sensitivity</text>
+  <path class="inhouse" d="M520 151 h38"/>
+  <text class="label" x="570" y="156">In-house ELISA</text>
+  <text x="570" y="179">AUC 0.921</text>
+  <path class="bovine" d="M520 219 h38"/>
+  <text class="label" x="570" y="224">Bovine ELISA (ELISAc)</text>
+  <text x="570" y="247">AUC 0.603</text>
+  <circle class="cutoff" cx="539" cy="291" r="6.5"/>
+  <text class="label" x="570" y="296">In-house OD &gt; 0.26</text>
+  <text x="570" y="320">Sensitivity 6/7 (85.7%)</text>
+  <text x="570" y="344">Specificity 8/9 (88.9%)</text>
+  <text x="32" y="589">Hermida et al. (2020) · Small Ruminant Research 190, 106184</text>
+</svg>
